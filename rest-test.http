@@ -1,0 +1,18 @@
+
+POST ticketing.com/api/users/signup HTTP/1.1
+content-type: application/json
+
+{
+    "email": "plameniiiipenchev@gmail.com",
+    "password": "12345678"
+}
+
+###
+
+POST ticketing.com/api/users/signin HTTP/1.1
+content-type: application/json
+
+{
+    "email": "plamenipenchev@gmail.com",
+    "password": ""
+}
